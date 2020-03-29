@@ -20,7 +20,7 @@ def find_the_cheese(str_array)
    cheese_types = ["cheddar", "gouda", "camembert"]
    binding.pry
    value = str_array.find_index do |x|
-     cheese_types.indclude?(x)
+     x == "cheddar" || "gouda" || "camembert"
      
     
    end
