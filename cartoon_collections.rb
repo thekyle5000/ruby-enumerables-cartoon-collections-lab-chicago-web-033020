@@ -23,8 +23,7 @@ def find_the_cheese(str_array)
     if value_index == nil
       return nil
     else
-      return 
-      str_array[value_index]
+      return str_array[value_index]
    end
  end
 end
