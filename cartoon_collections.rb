@@ -18,8 +18,8 @@ end
 
 def find_the_cheese(str_array)
    cheese_types = ["cheddar", "gouda", "camembert"]
-   value_index = str_array.find_index("cheddar")
-   binding.pry
+   value_indexc = str_array.find_index("cheddar")
+   
    do |x|
      x == "cheddar" || "gouda" || "camembert"
      
