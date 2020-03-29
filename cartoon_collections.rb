@@ -17,7 +17,7 @@ end
 
 def find_the_cheese(str_array)
    cheese_types = ["cheddar", "gouda", "camembert"]
-   find_index
+   value = str_array.find_index
 
 
 end
