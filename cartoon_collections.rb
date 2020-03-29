@@ -18,20 +18,7 @@ end
 
 def find_the_cheese(str_array)
    cheese_types = ["cheddar", "gouda", "camembert"]
-   value_indexc = str_array.find_index("cheddar")
-   value_indexg = str_array.find_index("gouda")
-   value_indexca = str_array.find_index("camembert")
-   
-   min()
-   
-  
-   do |x|
-     x == "cheddar" || "gouda" || "camembert"
-     
-    if value_index == nil
-      return nil
-    else
-      return str_array[value_index]
-   end
- end
+   array.find do |k|
+  cheese_types.include?(k)
+  end 
 end
